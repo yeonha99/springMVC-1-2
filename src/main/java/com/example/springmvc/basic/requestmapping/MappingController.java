@@ -41,11 +41,12 @@ public class MappingController {
     /**
      * GET /mapping/users/{userId}
      */
+    /*
     @GetMapping("/{userId}")
     public String findUser(@PathVariable String userId) {
         return "get userId=" + userId;
     }
-
+*/
     /**
     * PathVariable 사용
     * 변수명이 같으면 생략 가능
